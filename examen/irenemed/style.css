@@ -1,0 +1,175 @@
+/* Codigos base sacado de solemne 2*/
+h1 {
+    font-family: sans-serif;
+    color: rgb(0, 255, 225);
+    text-align: center;
+  }
+  h5 {
+    font-family: sans-serif;
+    font-weight: 300;
+    text-align: center;
+  }
+  .p1 {
+    background-color: rgb(0, 255, 225);
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  ol {
+    font-family: sans-serif;
+    font-weight: 900;
+  }
+  li {
+    text-align: left;
+    padding: 15px;
+  }
+  .p2 {
+    background-color: rgb(146, 246, 234);
+    color: black;
+    padding: 40px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  .p3 {
+    color: black;
+    padding: 40px;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: lighter;
+  }
+  a {
+    color:rgb(1, 173, 156);
+    font-style: italic;
+  }
+
+  /* Codigos que corresponden a lo investigado, codigos sacados de la pagina web https://www.w3schools.com/howto/howto_js_slideshow.asp */
+  /* Codigos modificados segun mis necesidades */
+  body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+  }
+  .mySlides {
+    display: none;
+  }
+  img {
+    vertical-align: middle;
+    max-width: 300px;
+  }
+  
+  .slideshow-container {
+    max-width: 300px;
+    position: relative;
+    margin: auto;
+  }
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    background-color: rgb(0, 255, 225);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Posicion del boton para cambiar imagen */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /*Color en transparencia para el cambio de imagen */
+  .prev:hover,
+  .next:hover {
+    background-color: rgb(0, 66, 59);
+  }
+  
+  /* Numero de textos desde 1/9 */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+
+    background-color: rgb(0, 255, 225);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.9s ease;
+  }
+  
+  .active,
+  .dot:hover {
+    background-color: #717171;
+  }
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @media only screen and (max-width: 300px) {
+    .prev,
+    .next,
+    .text {
+      font-size: 11px;
+    }
+}
+  /*  La funcion resposiva funciona para celulares cambiando la lista ordenada y los elementos que la componen*/
+  /* Información sacada de mi solemne 2 */
+  @media screen and (max-width: 800px) {
+    h1 {
+      color: rgb(0, 66, 59);
+     }
+   }
+  @media screen and (max-width: 800px) {
+    ol {
+      background-color: rgb(0, 66, 59);
+     }
+   }
+   @media screen and (max-width: 800px) {
+    li {
+      color: white;
+    }
+  }
+  /* Codigos para centra imagen sacados de https://www.w3schools.com/howto/howto_css_image_center.asp */
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+  @media screen and (max-width: 800px) {
+    img {
+      width: 100%; /* Ancho es 100% cuando la pantalla es de 800px o menos*/
+    }
+  }
+  /* Informacion sacada de https://www.w3schools.com/html/html_id.asp, codigo lo modificque a mis necesidades */
+#encabezado {
+    color:  rgb(0, 66, 59);
+    padding: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+  }

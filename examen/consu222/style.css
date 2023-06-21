@@ -25,7 +25,7 @@
     /* The hero image */
     .hero-image {
         /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("ultimamariposa.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./imagenes/ultimamariposa.jpg");
 
         /* Set a specific height */
         height: 50%;
@@ -47,7 +47,37 @@
         color: white;
     }
 
+    * {
+        box-sizing: border-box;
+    }
 
+    body {
+        margin: 0;
+        font-family: Arial;
+    }
+
+    .header {
+        text-align: center;
+        padding: 32px;
+    }
+
+    /* Create two equal columns that floats next to each other */
+    .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+    }
+
+    .column img {
+        margin-top: 12px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
 
 
     /* centre la imgen principal de mariposa morada agregando en css .center y los que aparece abajo */

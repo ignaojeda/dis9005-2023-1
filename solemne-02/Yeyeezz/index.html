@@ -1,80 +1,182 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8" />
         <title>
-            Niall Horan
+            one direction albums
         </title>
-        <meta 
-              name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>
-            Niall Horan
-        </h1>
-        <h4>
-            Descubre las sorpresas!!!
-        </h4>
+        <div class="header">
+            <img class="imagen" src="onedirection1.jpeg" style="width:100%">
+            <img class="imagen" src="onedirection2.jpg" style="width:100%">
+            <img class="imagen" src="onedirection3.jpg" style="width:100%">
+        </div>
+        <!-- intento de header que se desliza de forma automatica fallido -->
         <br>
-        <h2>
-            The Tide
-        </h2>
-        <p class="color">Oh no, get ready</p>       
-        <p>I feel it coming, it's coming again, I</p>
-        <p>Stay close, hold steady</p>
-        <p>'Cause I don't want it, don't want it to end</p>
-        <p>Those brown eyes, crying in a crowded bar</p>
-        <p>Every time we get this close</p>
-        <form id="completar">
-            <label for="letra"></label>
-            <input type="text" id="letra" name="letra"><br><br>
-            <input type="submit" value="completar"><br><br>
-        </form>
-        <button onclick="respuesta()">respuesta</button>
-        <!-- texto de la respuesta https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_ev_onclick -->
-        <p id="respuesta"></p>
         <br>
-        <p class="color">Don't let the tide come and wash us away</p>
-        <p>Don't let the tide come and take me</p>
-        <p id="cambiarColor" onclick="cambiarColor()">I just want a safe place to hide us away    !!</p>
-        <p>Don't let the tide come and take me</p>
-        <p>Don't let the tide come and wash us away</p>
-        <p>Don't let the tide come and take me</p>
-        <p>Far from with you, where I wanna stay</p>
-        <p>So don't let the tide come and take me</p>
         <br>
-        <p class="color">Oh no, get ready</p>
-        <p>I feel it coming, it's coming again</p>
-        <p>Don't give up, and don't let me</p>
-        <p>'Cause I'm needing you to understand</p>
-        <p>When I go, all I ever seem to fear</p>
-        <p>Is that you're gonna find someone</p>
-        <p>And slowly watch me disappear</p>
+        <h1 class="centrado">ONE DIRECTION</h1>
+        <h3 class="centrado">ALBUMS</h3>
         <br>
-        <p class="color">Don't let the tide come and wash us away</p>
-        <p>Don't let the tide come and take me</p>
-        <p>I just want a safe place to hide us away</p>
-        <p>So don't let the tide come and take me</p>
-        <p>Don't let the tide come and wash us away</p>
-        <p>Don't let the tide come and take me</p>
-        <p id="verde" onclick="verde()">Far from with you, where I wanna stay    !!</p>
-        <p>So don't let the tide come and take me</p>
+        <div class="fila">
+            <div class="columnas">
+                <button class="informacion" onclick="abrir()">
+                    <img src="upAllNight.jpg" alt="Up all night" style="width: 100%;">
+                </button>
+            </div>
+            <div class="columnas">
+                <button class="informacion" onclick="descubrir()">
+                    <img src="takeMeHome.jpg" alt="Take me home" style="width: 100%;">
+                </button>
+            </div>
+            <div class="columnas">
+                <button class="informacion" onclick="destapar()">
+                    <img src="midnightMemories.jpg" alt="Midnight memories" style="width: 100%;">
+                </button>
+            </div>
+            <div class="columnas">
+                <button class="informacion" onclick="hender()">
+                    <img src="four.jpg" alt="Four" style="width: 100%;">
+                </button>
+            </div>
+            <div class="columnas">
+                <button class="informacion" onclick="rajar()">
+                    <img src="madeInTheAm.png" alt="Made in the AM" style="width: 100%;">
+                </button>
+            </div>
+        </div>
+        <!-- imagen como boton https://aguidehub.com/blog/2023-02-01-how-to-create-button-with-image-using-css/#:~:text=To%20create%20button%20with%20image%20using%20css%2C%20put%20the%20image,button%20with%20image%20using%20css. -->
+        <div id="uan" class="interior">
+            <h3>Up All Night</h3>
+            <h5>2011</h5>
+            <br>
+                <p>What Makes you Beautiful</p>
+                <p>Gotta Be You</p>
+                <p>One Thing</p>
+                <p>More Than This</p>
+                <p>Up All Night</p>
+                <p>I Wish</p>
+                <p>Tell Me a Lie</p>
+                <p>Taken</p>
+                <p>I Want</p>
+                <p>Everything About You</p>
+                <p>Same Mistakes</p>
+                <p>Save You Tonight</p>
+                <p>Stole My Heart</p>
+                <p>Stand Up</p>
+                <p>Moments</p>
+        </div>
+        <div id="tmh" class="interior">
+            <h3>Take Me Home</h3>
+            <h5>2012</h5>
+            <br>
+                <p>Live While We're Young</p>
+                <p>Kiss You</p>
+                <p>Little Things</p>
+                <p>C'mon C'mon</p>
+                <p>Last First Kiss</p>
+                <p>Heart Attack</p>
+                <p>Rock Me</p>
+                <p>Change My Mind</p>
+                <p>I Would</p>
+                <p>Over Again</p>
+                <p>Back For You</p>
+                <p>They Don't Know About Us</p>
+                <p>Summer Love</p>
+                <p>Truly, Madly, Deeply</p>
+                <p>Magic</p>
+                <p>Irresistible</p>
+        </div>
+        <div id="mm" class="interior">
+            <h3>Midnight Memories</h3>
+            <h5>2013</h5>
+            <br>
+                <p>Best Song Ever</p>
+                <p>Story Of My Life</p>
+                <p>Diana</p>
+                <p>Midnight Memories</p>
+                <p>You & I</p>
+                <p>Don't Forget Where You Belong</p>
+                <p>Strong</p>
+                <p>Happily</p>
+                <p>Right Now</p>
+                <p>Little Black Dress</p>
+                <p>Through the Dark</p>
+                <p>Something Great</p>
+                <p>Little White Lies</p>
+                <p>Better Than Words</p>
+                <p>Why Don't Go There</p>
+                <p>Does He Know?</p>
+                <p>Alive</p>
+                <p>Half a Heart</p>
+        </div>
+        <div id="f" class="interior">
+            <h3>Four</h3>
+            <h5>2014</h5>
+            <br>
+                <p>Steal My Girl</p>
+                <p>Ready To Run</p>
+                <p>Where Do Broken Heart Go</p>
+                <p>18</p>
+                <p>Girl Almighty</p>
+                <p>Fool's Gold</p>
+                <p>Night Changes</p>
+                <p>No Control</p>
+                <p>Fireproof</p>
+                <p>Spaces</p>
+                <p>Stockholm Syndrome</p>
+                <p>Clouds</p>
+                <p>Change Your Ticket</p>
+                <p>Illusion</p>
+                <p>Once In a Lifetime</p>
+                <p>Act my Age</p>
+        </div>
+        <div id="mitam" class="interior">
+            <h3>Made In The AM</h3>
+            <h5>2015</h5>
+            <br>
+                <p>Hey Angel</p>
+                <p>Drag Me Down</p>
+                <p>Perfect</p>
+                <p>Infinity</p>
+                <p>End Of The Day</p>
+                <p>If I Could Fly</p>
+                <p>Long Way Down</p>
+                <p>Never Enough</p>
+                <p>Olivia</p>
+                <p>What a Feeling</p>
+                <p>Love You Goodbye</p>
+                <p>I Want To Write You a Song</p>
+                <p>History</p>
+                <p>Temporary Fix</p>
+                <p>Walking In The Wind</p>
+                <p>Wolves</p>
+                <p>A.M.</p>
+        </div>
         <br>
-        <p class="color">Oh no, get ready</p>
-        <p>Yeha, I feel it coming, it's coming again</p>
-        <p>Stay close, hold steady</p>
-        <p>'Cause I don't want it, don't want it to end, no</p>
-        <p>No, I don't want it, don't want it to end</p>
         <br>
-        <p class="color">Don't let the tide come and wash us away</p>
-        <p>Don't let the tide come and take me</p>
-        <p>I just want a safe place to hide us away</p>
-        <button onclick="sorpresa()">So don't let the tide come and take me</button>
-        <p>Don't let the tide come and wash us away</p>
-        <p>Don't let the tide come and take me</p>
-        <p>Far from with you, where I wanna stay</p>
-        <p>So don't let the tide come and take me</p>
-        <link rel="stylesheet" href="style.css">
-        <script src="./script.js"></script>
+        <br>
+        <br>
+
+        <div class="fondo">
+            <form class="espacio">
+                <p>Para mas curiosidades e informaci&oacute;n sobre 1D...</p>
+                <h1>Reg&iacute;strate!!</h1>
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Insertar email" name="email" required>
+
+                <label for="contrasena"><b>Contrase&ntilde;a</b></label>
+                <input id="info" type="contrasena" placeholder="Insertar contrase&ntilde;a" name="contrasena" required>
+
+                <button id="enviar" onclick="alert('Bienvenido!!')" class="boton">Registrar</button>
+            </form>
+        </div>
+        <!-- imagen de fondo y cuadro de "registrarse" https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_form_on_image -->
+        <!-- alerta al registrarse https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp -->
+        <script src="script.js"></script>
     </body>
 </html>
+<!-- formas de presentar imagenes  -->

@@ -1,30 +1,164 @@
+.header {
+    padding: none;
+    text-align: center;
+    background: white;
+    font-size: none;
+}
+* {
+    box-sizing: border-box;
+}
 body {
-    background-color: #a2b4ac;
+    margin: 0;
+    font-family: monospace;
 }
-h1 {
-    color: #353a34;
-    font-family: sans-serif;
+.columnas {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    display: inline;
+    cursor: pointer;
 }
-h4 {
-    color: #b24202;
-    font-family: sans-serif;
+.columnas img {
+    opacity: 0.8;
+    cursor: pointer;
 }
-h2 {
-    color: #353a34;
-    font-family: sans-serif;
+.columnas img:hover {
+    opacity: 1;
 }
-p {
-    color: #353a34;
-    font-family: sans-serif;
+.fila::after {
+    content: "";
+    display: table;
+    clear: both;
 }
-.color {
-    color: brown;
+.contenido {
+    position: relative;
+    display: none;
 }
-@media screen and (max-width: 800px) {
-    .color {
-        background-color: #755565;
-        color: #ceb0ab;
-        width: 100%;
-    }
+/* imagenes albumes */
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow-x: scroll;
 }
-/* Responsividad con css https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_media_query */
+.header img {
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* deslizar imagenes header */
+
+.centrado {
+    text-align: center;
+}
+body, html {
+    height: 100%;
+}
+.fondo {
+    background-image: url("fondo.jpg");
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.espacio {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 20px;
+    background-color: white;
+}
+input[type=text], input[type=contrasena] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=text]:focus, input[type=contrasena]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+.boton {
+    background-color: #04aa6d;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.boton:hover {
+    opacity: 1;
+}
+/* imagen de fondo y cuadro de "registrarse" https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_form_on_image */
+
+.fila {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+.fila button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+.fila button:hover {
+    background-color: #ddd;
+}
+.fila button.active {
+    background-color: #ccc;
+}
+.interior {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+
+#uan {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+}
+#tmh {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+}
+
+#mm {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+}
+
+#f {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+}
+
+#mitam {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+}

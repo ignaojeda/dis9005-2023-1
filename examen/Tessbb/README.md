@@ -16,3 +16,9 @@
 ![pantallazo 7](./Cap7.PNG)
 - la discografia responsiva 
 ![pantallazo 8](./Cap8.PNG)
+- pagina en el cel
+![pantallazo 9](./Cap9.PNG)
+- tabla responsiva en el cel  
+![pantallazo 10](./Cap10.PNG)
+- discografia en el cel 
+![pantallazo 11](./Cap11.PNG)

@@ -13,7 +13,6 @@ let score = 0;
 
 let highScore = localStorage.getItem("high-score") || 0;
 
-
 const changeFoodPosition = () => {
     foodX = Math.floor(Math.random() * 30) + 1;
     foodY = Math.floor(Math.random() * 30) + 1; 
@@ -21,12 +20,12 @@ const changeFoodPosition = () => {
 
 const handleGameOver = () => {
     clearInterval(setIntervalId); 
-    alert("Game Over!");
+    alert("Perdiste :c");
     location.reload();
 }
 
 const changeDirection = (e) => {
-    // console.log(e);
+    // console.log(Si);
     if(e.key === "ArrowUp" && velocityY != 1) {
         velocityX = 0;
         velocityY = -1;
@@ -40,6 +39,7 @@ const changeDirection = (e) => {
         velocityX = 1;
         velocityY = 0;
     }
+   
     // initGame();
 }
 
@@ -96,5 +96,7 @@ const initGame = () => {
 changeFoodPosition();
 // initGame(); 
 setIntervalId = setInterval(initGame, 125);
-document.addEventListener("keydowm", changeDirection);
+document.addEventListener("keydown", changeDirection);
 // codigo del juego rescatado de https://www.youtube.com/watch?v=QIKOrITyAtU
+
+

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title> TOKIRUMIS</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+    <h1> TOKIRUMIS</h1>
+    <h5 id="encabezado"> Tokirumis es un pequeño emprendimiento de amigurumis que naci&oacute; despu&eacute;s de la pandemia producto
+        como una terapia contra el estr&eacute;s, a&uacute;n est&aacute; comenzado teniendo solo unos pocos amigurumis
+        creados.</h5>
+    <p class="p1">
+        A continuaci&oacute;n mostraremos mis primeros proyectos:
+    </p>
+    <!-- ol me base en lo que tenia anotado en mis apuntes de material que use en la solemne 2, la información la habia sacada de la pagina web https://www.w3schools.com/html/html_lists.asp. Es una lista ordenada-->
+    <ol>
+        <li>Colecci&oacute;n de caracoles</li>
+        <!-- Información sacada de la pagina web https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+        <!-- Estos codigos son en base a la investigacion que realice para crear un carrusel -->
+        <!-- Codigos modificados segun mis necesidades -->
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 9</div>
+                <img src="coleccioncaracoles1.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 9</div>
+                <img src="coleccioncaracoles2.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 9</div>
+                <img src="coleccioncaracoles3.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 9</div>
+                <img src="coleccioncaracoles4.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 9</div>
+                <img src="coleccioncaracoles5.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 9</div>
+                <img src="coleccioncaracoles6.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 9</div>
+                <img src="coleccioncaracoles7.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">8 / 9</div>
+                <img src="coleccioncaracoles8.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">9 / 9</div>
+                <img src="coleccioncaracoles9.jpg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+            <span class="dot" onclick="currentSlide(9)"></span>
+        </div>
+
+        <li> Vaquita</li>
+
+        <img src="vaquita.jpg" />
+
+        <li>Corazones</li>
+
+        <img src="corazones.jpg" />
+    </ol>
+    <p class="p2">
+        Todos los productos son creados por una sola persona y todo est&aacute; hecho a mano, tambi&eacute;n cada
+        producto es seguro para niños.
+    </p>
+    <p class="p3" id="encabezado">
+        Si estas interesado en uno de nuestros productos visita nuestro 
+        <a href="https://instagram.com/tokkirumis?igshid=MzRlODBiNWFlZA==" > Instagram </a>
+    </p>
+    <!-- Codigos base extraidos de mi solemne 2 -->
+    <form id="formulario">
+        <label for="Comentarios">Comentarios:</label><br />
+        <input
+          type="text"
+          id="comentario"
+          name="comentario"
+          value="Escribe alg&uacute;n comentario"
+        /><br /><br />
+        <input type="submit" value="Enviar" />
+      </form>
+      <p id="bienvenida"></p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

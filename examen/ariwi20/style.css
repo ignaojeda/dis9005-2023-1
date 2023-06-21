@@ -1,0 +1,128 @@
+/* fondo de la página web */     
+body {
+  background-color: rgb(255, 255, 255);
+}
+/* referente de caja de color de https://www.w3schools.com/css/css_padding.asp */
+  h1 {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: medium;
+    background: rgb(0, 0, 0);
+    height: 8% 8%;
+    padding: 4px; 
+    width:20%;
+    height: 8% 8%;
+    border-radius:20px 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+}
+/* Font de input */  
+h2 {
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  text-align: right;
+  font-size: small;
+}
+/* Font de la barra de navegación */      
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+.div {
+text-align: center;
+}
+/* Color de de la barra de navegación */ 
+  .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+/* Nombres de pokemón */ 
+h3 {
+  color: rgb(0, 0, 0);
+  font-family: Papyrus;
+  text-align: center
+}
+/* texto de pokemón */ 
+p {
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  font-size: small;
+  text-align: center,left;
+}
+/* Color de la barra de navegación */
+.topnav {
+  overflow: hidden;
+  background-color: #e0dede;
+}
+/* Estilo de la barra de navegación */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+/* Colores de los links de la barra de navegación */
+.topnav a:hover {
+  background-color: #b9b9b9;
+  color: black;
+}
+/* Estilo de los elementos ectivos a destacar de la barra de navegación */
+.topnav a.active {
+  background-color: #2a75bb;
+  color: white;
+}
+/* Fondo de botón ¡atrápalos a todos! */
+#myBtn {
+background-color: #FFCC00;
+}
+/* Fondo de botón ¡atrápalos a todos! */
+#aceptar {
+background-color: #c3c3c3;
+font-size: x-small;
+}
+.boton {
+text-align: right;
+font-size: small;
+}
+.Pokeball {
+  width: 3%;
+}
+/* cuando la pantalla sea menor o igual que 600px el fondo se pondrá celeste y se cambiaràn otros atributos de la página */
+@media only screen and (max-width: 600px){
+body {
+    background-color: rgb(218, 249, 255);
+    font-size: small;  
+  }
+.Pokeball {
+    width: 5%;
+  }
+.Logopoke{
+  width: 40%;
+}
+.input {
+  width: 20%;
+  font-size: x-small;
+}
+.boton {
+  text-align: right;
+  font-size: x-small;
+}
+h1 {
+  font-size: x-small;
+}
+p {
+  font-size: x-small;
+}
+.topnav {
+font-size: x-small;
+}
+.myBtn {
+  font-size: x-small;
+}
+}
+

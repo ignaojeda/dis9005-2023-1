@@ -1,17 +1,26 @@
+#titulo {
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 200%;
+    text-align: center;
+    color: white;
+}
+
+br 
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
 body{
-    display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: floralwhite;
+    background: #019fb2;
 }
 
 .wrapper {
@@ -21,7 +30,7 @@ body{
     overflow: hidden;
     flex-direction: column;
     border-radius: 5px;
-    background: #9f802a;
+    background: #fec201;
 }
 /* color de menu superior  */
 
@@ -37,20 +46,36 @@ body{
 .play-board {
     width: 100%;
     height: 100%;
-    background: #212837;
+    background: #cb003b;
     display: grid;
     grid-template: repeat(30, 1fr) / repeat(30, 1fr);
 }
 /* cuadro de juego */
 
 .play-board .food{
-    background: #ff003d;
+    background: #fa6a01;
 }
 /* color de fruta */
 
 .play-board .head{
-    background: #77eb18;
+    background: #510555;
 } 
 /* serpiente color */
 
 /* codigo del juego rescatado de https://www.youtube.com/watch?v=QIKOrITyAtU */
+
+
+#parrafo1 {
+    text-align: center;
+    color: rgb(144, 253, 216);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+#parrafo2 {
+    text-align: center;
+    color: #fec201;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-style: double;
+    border-width: 14px;
+}
+/* codigo rescatado de solemne 2  https://github.com/menteneon/dis9005-2023-1/blob/main/solemne-02/menteneon/style.css*/

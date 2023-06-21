@@ -1,0 +1,174 @@
+body {
+    background-color:rgb(222, 253, 213); 
+}
+
+h1 {
+    color:aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', "Arial", "sans-serif";
+    text-align: center;
+    background-color:rgb(95, 113, 62)
+  }
+
+h2 {
+    color: rgb(134, 150, 106);
+    font-family:sans-serif
+}
+p {
+    color:darkgreen;
+    
+
+}
+a {
+    background-color:rgb(134, 150, 106);
+    color: darkgreen;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+li {
+    color: darkolivegreen;
+    font-family: sans-serif;
+    font-size:larger;
+    background-color: rgb(249, 244, 236);
+}
+a:hover {
+    background-color:coral
+  }
+  /* hover referido w3shools https://www.w3schools.com/cssref/sel_hover.php */
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  
+
+div.gallery {
+  border: 1px solid #394c27;
+}
+div.gallery:hover {
+    border: 1px solid #394c27;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(95, 113, 62)
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ /* referido W3shcools responsive image gallery  https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery_responsive*/
+
+
+
+ /* referido w3schols modal image */
+ /* Aprend&iacute; como crear una imagen modal que en donde al hacer click en la imagen se despliega en la misma pagina */
+ #myImage {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+
+ }
+ #myImage:hover {opacity: 0.7;}
+
+ .modal {
+  display: none;
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: large;
+  color: #ec822b;
+}
+
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.9s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* Agregu&eacute; por mi cuenta el cambio de color de la x para cerrar la imagen*/
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #394c27;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.9s;
+}
+
+.close:hover,
+.close:focus {
+  color: #ec822b;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+/* eferido w3schols modal image  https://www.w3schools.com/howto/howto_css_modal_images.asp */

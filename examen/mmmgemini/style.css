@@ -1,0 +1,64 @@
+body {
+    background-color:palegoldenrod ;
+}
+h1 {
+    background-color: goldenrod;
+    color: antiquewhite;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    font-size: 90px;
+}
+.manuela0 {
+    font-size: 30px;
+}
+.manuela1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    border-style: double;
+    border-color: coral;
+    border-width: 60px;
+}
+div.T1 {
+    text-align: center;    
+}
+/* link de como aplicarles mas caracteristicas a los urls https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_button */
+a.link1, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a.link2, a:visited {
+    background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a.link3, a:visited {
+    background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+/* intente poner los urls en casillas como tipo boton y que se pusieran de color al poner "mouse?)" y no lo logre :c  */
+a:hover, a:active {
+    background-color: rgb(212, 119, 255);
+}
+.manuela2 {
+    font-size: 20px;
+    text-decoration-line: overline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 5px; 
+}
+@media only screen and (max-width: 750px) {
+    body {
+      background-color: rgb(137, 205, 247);
+    }
+  }

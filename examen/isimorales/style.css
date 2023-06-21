@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+li {
+    display: inline;
+
+}
+
+/*encabezado*/
+
+/*el display flex es para que un elemento quede al lado de el otro*/
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .7);
+    text-align: center;
+    font: 20/30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+
+
+    /*el absolute es q le hace caso a cualquier elemento padre*/
+}
+
+
+
+
+/*esto es para hacer todo el efecto de las fotos
+extraido de https://www.youtube.com/watch?v=crn9CGC-OW4&ab_channel=SINERGIA */
+.contenedor {
+
+    padding: 1px;
+    position: relative;
+    border: 9px;
+    width: 100%;
+    margin-right: 2px;
+    /*este es el margen de la derecha*/
+    margin-left: 2px;
+    /*sirve para eliminar objetos que estan al rededor*/
+}
+
+
+.contenedor img {
+
+
+    transition: all .3s;
+}
+
+.contenedor:hover img {
+
+    transform: scale(1.05);
+    display: block;
+}
+
+.contenedor .contenido {
+
+
+    background: rgb(0, 0, .8);
+    position: absolute;
+    top: -100%;
+    left: 0;
+    text-align: justify;
+    height: 100%;
+    color: aliceblue;
+    box-sizing: border-box;
+}
+
+
+.container:hover .contenido {
+
+    top: 0;
+}
+
+
+
+
+
+/*aqui parte la cosas para hacer la grilla en escala 4:5*/
+.imagen {
+    /*porque aqui me toma todas si estan por separado?*/
+    width: 100%
+}
+
+.imagen img {
+    width: 400px;
+    height: 500px;
+    overflow: hidden
+}
+
+.galeria {
+    border: 1px;
+    width: 100%;
+    margin-right: 20px;
+    margin-left: 2px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    column-gap: 1px;
+    row-gap: 1px;
+}
+
+
+/*efecto sobre imagen y sobre mouse*/
+figure:hover figcaption {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:100px) {
+    .galeria {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width:520px) {
+    .galeria {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width:728px) {
+    .galeria {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width:1024px) {
+    .galeria {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

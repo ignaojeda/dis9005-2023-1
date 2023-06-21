@@ -1,126 +1,125 @@
 /* Ajustes por default de margenes y padding*/
 * {
-  margin: 0;
-  padding: 0;
-}
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+  }
 /* Cursor personalizado*/
 .cursor {
-  width: 10px;
-  height: 10px;
-  border: 10px solid rgb(255, 85, 85);
-  border-radius: 50%;
-  position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 10px solid rgb(255, 85, 85);
+    border-radius: 50%;
+    position: absolute;
 }
 /* Ajustes generales para cuerpo de texto*/
 body {
-  font-family: sans-serif;
-  background-color: rgb(240, 240, 240);
-  color: rgb(10, 10, 10);
+    font-family: sans-serif;
+    background-color: rgb(240, 240, 240);
+    color: rgb(10, 10, 10);
 }
 /*Ajustes de barra de encabezado*/
 header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-height: 300px;
-  background-color: rgb(10, 10, 10);
-  color: rgb(240, 240, 240);
-  padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-height: 300px;
+    background-color: rgb(10, 10, 10);
+    color: rgb(240, 240, 240);
+    padding: 20px;
 }
-/*Ajustes Video*/
-#video {
-  margin: 0 auto;
-  width: 100%;
-  display: block;
-}
-/*Ajustes generales form*/
-form {
-  position: center;
-  width: 50vw;
-  margin: 0 auto;
-  padding: 0;
-  box-sizing: border-box;
-}
-/*Ajustes buscador*/
-#buscador {
-  width: 550px;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-/*Ajustes elementos de botones*/
-.boton {
-  width: 130px;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+/*Ajusted de botones*/
+.boton{
+  height: 40px;
+  width: 140px;
+  font-size: 16px;
 }
 /*Ajustes de posicion para gif*/
 .logo {
-  display: flex;
-  align-items: center;
+    display: flex;
 }
 /*Ajustes de tamaño para gif*/
 .logo img {
-  height: 100px;
-  margin-right: 30px;
+    height: 100px;
+    margin-right: 30px;
 }
 /* Comandos para centrar parrafo / aqui me ayudo mi compañero*/
 .galeria .titulo {
-  font-size: 2vw;
-  text-align: center;
+    font-size: 30px;
 }
 .galeria .parrafo {
-  font-size: 2vw;
-  text-align: center;
+    font-size: 26px;
 }
 .galeria .hipervinculo {
-  font-size: 2vw;
-  text-align: center;
-  color: black;
-  text-decoration: none;
+    font-size: 26px;
+    color: black;
+    text-decoration: none;
 }
 /*Ajustes para centrar imagenes*/
 .galeria img {
-  display: block;
-  margin: auto;
-  max-width: 1000px;
+    display: block;
+    margin: auto;
+    max-width: 1000px;
 }
+/*Ajustes para resaltar texto*/
 .galeria .hipervinculo:hover {
-  font-size: 2vw;
-  color: rgb(255, 85, 85);
+    font-size: 26px;
+    color: rgb(255, 85, 85);
+}
+/*Ajustes para pie de pagina*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    max-height: 300px;
+    background-color: rgb(10, 10, 10);
+    color: rgb(240, 240, 240);
+    padding: 20px;
 }
 /*Ajustes para responsividad*/
 @media screen and (max-width: 1050px) {
-  header {
-    flex-direction: column;
-    align-items: center;
-  }
-  nav {
-    padding-top: 35px;
-    padding-bottom: 20px;
-    padding-left: 80px;
-    padding-right: 80px;
-  }
-  .logo img {
-    height: 200px;
-  }
-  .logo h2 {
-    display: none;
-  }
-  .galeria img {
-    width: 820px;
-  }
-  .galeria .titulo {
-    font-size: 2vw;
-  }
-  .galeria .parrafo {
-    font-size: 2vw;
-  }
-  .galeria .hipervinculo {
-    font-size: 2vw;
-  }
-  .galeria .hipervinculo:hover {
-    font-size: 2vw;
-  }
+    *{
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      text-decoration: none;
+      align-items: center;
+    }
+    .cursor{
+      display: none;
+    }
+    header {
+      flex-direction: column;
+    }
+    .logo img {
+      height: 200px;
+    }
+    .logo h2 {
+      display: none;
+    }
+    .galeria img {
+      width: 820px;
+    }
+    .galeria .titulo {
+      font-size: 20px;
+    }
+    .galeria .parrafo {
+      font-size: 16px;
+    }
+    .galeria .hipervinculo {
+      font-size: 16px;
+    }
+    .galeria .hipervinculo:hover {
+      font-size: 16px;
+    }
+    .boton{
+      height: 80px;
+      width: 180px;
+      font-size: 20px;
+    }
+    footer{
+      flex-direction: column;
+      align-items: center;
+      height: 100px;
+    }
 }
