@@ -3,7 +3,7 @@ Mi examen constara de hacer mi portafolio
 La investigaciòn sera que se pueda acceder a màs paginas dentro de la mia con una  Top Navigation Bar.
 ademas añadire imagenes y mas subtemas de las cosas que he hecho.
 Aprendi a colocar favicon, hacer un boton el cual descarga mi cv, tambien un boton que si bajas mucho te ayuda a subir rapido.
-
+Trabaje más en html que los demás pero fue por que ahi podia completar la idea que tenia de como queria que quedera el sitio web.
 
 
 links que use y referi en el html, css, JS 
