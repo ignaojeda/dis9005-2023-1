@@ -1,7 +1,7 @@
 // Agregar interactividad a un botón
 const boton = document.getElementById('miBoton');
 boton.addEventListener('click', function() {
-  alert('¡Haz hecho clic en el botón!');
+  alert('¡Has hecho clic en el botón!');
 });
 
 // Validación de formulario al enviar
@@ -29,7 +29,7 @@ formulario.addEventListener('submit', function(event) {
   alert('¡El formulario ha sido enviado exitosamente!');
 });
 
-// Manipulación del DOM
+// sacado de w3schools
 const elemento = document.getElementById('miElemento');
 elemento.textContent = 'Nuevo texto'; // Cambiar el texto del elemento
 
@@ -40,7 +40,7 @@ const nuevoElemento = document.createElement('p');
 nuevoElemento.textContent = 'Este es un nuevo párrafo.';
 document.body.appendChild(nuevoElemento); // Agregar un nuevo elemento al documento
 
-// Llamada a un servicio web usando Fetch API
+// codigo responsivo
 fetch('https://api.example.com/data')
   .then(response => response.json())
   .then(data => {
@@ -50,45 +50,40 @@ fetch('https://api.example.com/data')
   .catch(error => {
     console.error('Error al obtener los datos:', error);
   });
-<script>
-// Get the elements with class="column"
-var elements = document.getElementsByClassName("column");
-
-// Declare a loop variable
+var elements = document.getElementsByClassName('column');
 var i;
 
 // Full-width images
 function one() {
-    for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "100%";  // IE10
-    elements[i].style.flex = "100%";
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = '100%'; // IE10
+    elements[i].style.flex = '100%';
   }
 }
 
 // Two images side by side
 function two() {
   for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "50%";  // IE10
-    elements[i].style.flex = "50%";
+    elements[i].style.msFlex = '50%'; // IE10
+    elements[i].style.flex = '50%';
   }
 }
 
-// Four images side by side
+// aqui van cuatro imagenes una al lado de otra
 function four() {
   for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "25%";  // IE10
-    elements[i].style.flex = "25%";
+    elements[i].style.msFlex = '25%'; // IE10
+    elements[i].style.flex = '25%';
   }
 }
 
-// Add active class to the current button (highlight it)
-var header = document.getElementById("myHeader");
-var btns = header.getElementsByClassName("btn");
+// para el destacado
+var header = document.getElementById('myHeader');
+var btns = header.getElementsByClassName('btn');
 for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
+  btns[i].addEventListener('click', function() {
+    var current = document.getElementsByClassName('active');
+    current[0].className = current[0].className.replace(' active', '');
+    this.className += ' active';
   });
 }
-</script>
