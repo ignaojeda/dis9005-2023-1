@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
 <title>MI PORTAFOLIO</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,11 +13,15 @@
 body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 .w3-row-padding img {margin-bottom: 12px}
 /* sacado de w3schools */
-.w3-sidebar {width: 120px;background: #000000;}
+.w3-sidebar {width: 120px;background: #f50000;}
 /* para añadir un margen al lado izquierdo */
 #main {margin-left: 120px}
 /* sacar margenes de pantallas pequeñas */
-@media solo screen y (max-width: 600px) {#main {margin-left: 0}}
+@media only screen and (max-width: 600px) {
+  #main {
+    margin-left: 0;
+  }
+}
 </style>
 <body class="w3-black">
     
@@ -54,9 +61,9 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 <div class
 <!-- encabezado -->
 <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-  <h1 class="w3-jumbo"><span class="w3-hide-small">Hola </span>Bienvenidxs</h1>
+  <h1 class="w3-jumbo"><span class="w3-hide-small"></span>¡Bienvenidxs!</h1>
   <p>Soy Emilia Guerra</p>
-  <img src="imagenes/inicio.jpeg" alt="boy" class="w3-image" width="992" height="1108">
+  <img src="imagenes/presentacion.jpeg" alt="boy" class="w3-image" width="882" height="1000">
 </header>
 <!-- detalles -->
 <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
@@ -96,20 +103,20 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   </div>
  <!-- trabajos colaborativos -->
   <h3 class="w3-padding-24 w3-text-light-grey">Mis colaboraciones</h3>  
-  <img src=https://www.patrimoniodechile.cl/688/articles-84924_imagen_portada.thumb_i1200x560.jpg alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:100px">
+  <img src="imagenes/teatrp.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:50px">
   <p><span class="w3-large w3-margin-right">Teatro Municipal de Santiago</span> desde 1857</p>
   <p>Trabajamos en conjunto para desarrollar un Mapping de la Sinfonía del Nuevo Mundo de Antonin Dvorak </p><br>
   
-  <img src=file:///var/folders/7d/l1pt8bbn2nb6m_h8y_09b1g40000gn/T/TemporaryItems/NSIRD_screencaptureui_NbRuLy/Captura%20de%20Pantalla%202023-06-19%20a%20la(s)%2011.16.40.png alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-  <p><span class="w3-large w3-margin-right">Taller de Celebración DNO UDP</span> diseñamos una cocina modular</p>
-  <p>inauguracion 06/07 en sede Salvador Sanfuentes</p>
+  <img src="imagenes/taller.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:50px">
+  <p><span class="w3-large w3-margin-right">Taller de Celebración DNO UDP</span> Diseñamos una cocina modular</p>
+  <p>Inauguración 06/07 en sede Salvador Sanfuentes</p>
 </div>
 
 <!-- grilla de imag de w3schools -->
 <div class="w3-padding-64 w3-content" id="photos">
-  <h2 class="w3-text-light-grey">GALERIA</h2>
+  <h2 class="w3-text-light-grey">GALERÍA</h2>
   <hr style="width:200px" class="w3-opacity">
-  <div class="w3-row-padding" style="margin:0 -16px">
+  <div class="w3-row-padding" style="margin:10 -16px">
     <div class="w3-half">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- grilla -->
@@ -133,15 +140,15 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 <!-- seccion de contacto sacada de w3schools -->
 <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-  <h2 class="w3-text-light-grey">CONTACTAME</h2>
+  <h2 class="w3-text-light-grey">CONTÁCTAME</h2>
   <hr style="width:200px" class="w3-opacity">
 
   <div class="w3-section">
     <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Santiago, Chile</p>
-    <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> telefono: 9 33859247</p>
+    <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Teléfono: +569 33859247</p>
     <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: emilia.guerra@mail.udp.cl</p>
   </div><br>
-  <p>agenda julio abierta</p>
+  <p>Agenda julio abierta</p>
 
   <form action="/action_page.php" target="_blank">
     <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
@@ -150,7 +157,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
     <p>
       <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        <i class="fa fa-paper-plane"></i> Enviar cotización
       </button>
     </p>
   </form>
@@ -159,4 +166,3 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 </body>
 </html>
-<!-- profe tengo que ordenar mi codigo le juro que quedara increible -->
