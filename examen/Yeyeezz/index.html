@@ -14,7 +14,7 @@
             <img class="imagen" src="onedirection2.jpg" style="width:100%">
             <img class="imagen" src="onedirection3.jpg" style="width:100%">
         </div>
-        <!-- ver scroll-snap-type https://www.enmilocalfunciona.io/crear-un-carrusel-de-imagenes-solo-con-css/ -->
+        <!-- intento de header que cambia imagen automaticamente fallido -->
         <br>
         <br>
         <br>
@@ -23,28 +23,28 @@
         <br>
         <div class="fila">
             <div class="columnas">
-                <button class="informacion" onclick="abrir(event,'UAN')">
-                    <img src="upAllNight.jpg" alt="Up all night" style="width: 100%;" onclick="funcion(esto);">
+                <button class="informacion" onclick="abrir()">
+                    <img src="upAllNight.jpg" style="width: 100%;">
                 </button>
             </div>
             <div class="columnas">
-                <button class="informacion" onclick="abrir(event,'TMH')">
-                    <img src="takeMeHome.jpg" alt="Take me home" style="width: 100%;" onclick="funcion(esto);">
+                <button class="informacion" onclick="descubrir()">
+                    <img src="takeMeHome.jpg" style="width: 100%;">
                 </button>
             </div>
             <div class="columnas">
-                <button class="informacion" onclick="abrir(event,'MM')">
-                    <img src="midnightMemories.jpg" alt="Midnight memories" style="width: 100%;" onclick="funcion(esto);">
+                <button class="informacion" onclick="destapar()">
+                    <img src="midnightMemories.jpg" style="width: 100%;">
                 </button>
             </div>
             <div class="columnas">
-                <button class="informacion" onclick="abrir(event,'F')">
-                    <img src="four.jpg" alt="Four" style="width: 100%;" onclick="funcion(esto);">
+                <button class="informacion" onclick="hender()">
+                    <img src="four.jpg" style="width: 100%;">
                 </button>
             </div>
             <div class="columnas">
-                <button class="informacion" onclick="abrir(event,'MITAM')">
-                    <img src="madeInTheAm.png" alt="Made in the AM" style="width: 100%;" onclick="funcion(esto);">
+                <button class="informacion" onclick="rajar()">
+                    <img src="madeInTheAm.png" style="width: 100%;">
                 </button>
             </div>
         </div>
@@ -52,128 +52,110 @@
         <div id="uan" class="interior">
             <h3>Up All Night</h3>
             <h5>2011</h5>
-            <ol>
-                <li>What Makes you Beautiful</li>
-                <li>Gotta Be You</li>
-                <li>One Thing</li>
-                <li>More Than This</li>
-                <li>Up All Night</li>
-                <li>I Wish</li>
-                <li>Tell Me a Lie</li>
-                <li>Taken</li>
-                <li>I Want</li>
-                <li>Everything About You</li>
-                <li>Same Mistakes</li>
-                <li>Save You Tonight</li>
-                <li>Stole My Heart</li>
-                <li>Stand Up</li>
-                <li>Moments</li>
-            </ol>
+                <p>What Makes you Beautiful</p>
+                <p>Gotta Be You</p>
+                <p>One Thing</p>
+                <p>More Than This</p>
+                <p>Up All Night</p>
+                <p>I Wish</p>
+                <p>Tell Me a Lie</p>
+                <p>Taken</p>
+                <p>I Want</p>
+                <p>Everything About You</p>
+                <p>Same Mistakes</p>
+                <p>Save You Tonight</p>
+                <p>Stole My Heart</p>
+                <p>Stand Up</p>
+                <p>Moments</p>
         </div>
         <div id="tmh" class="interior">
             <h3>Take Me Home</h3>
             <h5>2012</h5>
-            <ol>
-                <li>Live While We're Young</li>
-                <li>Kiss You</li>
-                <li>Little Things</li>
-                <li>C'mon C'mon</li>
-                <li>Last First Kiss</li>
-                <li>Heart Attack</li>
-                <li>Rock Me</li>
-                <li>Change My Mind</li>
-                <li>I Would</li>
-                <li>Over Again</li>
-                <li>Back For You</li>
-                <li>They Don't Know About Us</li>
-                <li>Summer Love</li>
-                <li>Truly, Madly, Deeply</li>
-                <li>Magic</li>
-                <li>Irresistible</li>
-            </ol>
+                <p>Kiss You</p>
+                <p>Live While We're Young</p>
+                <p>Little Things</p>
+                <p>C'mon C'mon</p>
+                <p>Last First Kiss</p>
+                <p>Heart Attack</p>
+                <p>Rock Me</p>
+                <p>Change My Mind</p>
+                <p>I Would</p>
+                <p>Over Again</p>
+                <p>Back For You</p>
+                <p>They Don't Know About Us</p>
+                <p>Summer Love</p>
+                <p>Truly, Madly, Deeply</p>
+                <p>Magic</p>
+                <p>Irresistible</p>
         </div>
         <div id="mm" class="interior">
             <h3>Midnight Memories</h3>
             <h5>2013</h5>
-            <ol>
-                <li>Best Song Ever</li>
-                <li>Story Of My Life</li>
-                <li>Diana</li>
-                <li>Midnight Memories</li>
-                <li>You & I</li>
-                <li>Don't Forget Where You Belong</li>
-                <li>Strong</li>
-                <li>Happily</li>
-                <li>Right Now</li>
-                <li>Little Black Dress</li>
-                <li>Through the Dark</li>
-                <li>Something Great</li>
-                <li>Little White Lies</li>
-                <li>Better Than Words</li>
-                <li>Why Don't Go There</li>
-                <li>Does He Know?</li>
-                <li>Alive</li>
-                <li>Half a Heart</li>
-            </ol>
+                <p>Best Song Ever</p>
+                <p>Story Of My Life</p>
+                <p>Diana</p>
+                <p>Midnight Memories</p>
+                <p>You & I</p>
+                <p>Don't Forget Where You Belong</p>
+                <p>Strong</p>
+                <p>Happily</p>
+                <p>Right Now</p>
+                <p>Little Black Dress</p>
+                <p>Through the Dark</p>
+                <p>Something Great</p>
+                <p>Little White Lies</p>
+                <p>Better Than Words</p>
+                <p>Why Don't Go There</p>
+                <p>Does He Know?</p>
+                <p>Alive</p>
+                <p>Half a Heart</p>
         </div>
         <div id="f" class="interior">
             <h3>Four</h3>
             <h5>2014</h5>
-            <ol>
-                <li>Steal My Girl</li>
-                <li>Ready To Run</li>
-                <li>Where Do Broken Heart Go</li>
-                <li>18</li>
-                <li>Girl Almighty</li>
-                <li>Fool's Gold</li>
-                <li>Night Changes</li>
-                <li>No Control</li>
-                <li>Fireproof</li>
-                <li>Spaces</li>
-                <li>Stockholm Syndrome</li>
-                <li>Clouds</li>
-                <li>Change Your Ticket</li>
-                <li>Illusion</li>
-                <li>Once In a Lifetime</li>
-                <li>Act my Age</li>
-            </ol>
+                <p>Steal My Girl</p>
+                <p>Ready To Run</p>
+                <p>Where Do Broken Heart Go</p>
+                <p>18</p>
+                <p>Girl Almighty</p>
+                <p>Fool's Gold</p>
+                <p>Night Changes</p>
+                <p>No Control</p>
+                <p>Fireproof</p>
+                <p>Spaces</p>
+                <p>Stockholm Syndrome</p>
+                <p>Clouds</p>
+                <p>Change Your Ticket</p>
+                <p>Illusion</p>
+                <p>Once In a Lifetime</p>
+                <p>Act my Age</p>
         </div>
         <div id="mitam" class="interior">
             <h3>Made In The AM</h3>
             <h5>2015</h5>
-            <ol>
-                <li>Hey Angel</li>
-                <li>Drag Me Down</li>
-                <li>Perfect</li>
-                <li>Infinity</li>
-                <li>End Of The Day</li>
-                <li>If I Could Fly</li>
-                <li>Long Way Down</li>
-                <li>Never Enough</li>
-                <li>Olivia</li>
-                <li>What a Feeling</li>
-                <li>Love You Goodbye</li>
-                <li>I Want To Write You a Song</li>
-                <li>History</li>
-                <li>Temporary Fix</li>
-                <li>Walking In The Wind</li>
-                <li>Wolves</li>
-                <li>A.M.</li>
-            </ol>
+                <p>Hey Angel</p>
+                <p>Drag Me Down</p>
+                <p>Perfect</p>
+                <p>Infinity</p>
+                <p>End Of The Day</p>
+                <p>If I Could Fly</p>
+                <p>Long Way Down</p>
+                <p>Never Enough</p>
+                <p>Olivia</p>
+                <p>What a Feeling</p>
+                <p>Love You Goodbye</p>
+                <p>I Want To Write You a Song</p>
+                <p>History</p>
+                <p>Temporary Fix</p>
+                <p>Walking In The Wind</p>
+                <p>Wolves</p>
+                <p>A.M.</p>
         </div>
-        <div class="contenido">
-            <span onclick="this.parentElement.style.display='none'" class="cerrar">&times;</span>
-            <img id="expandida" style="width: 100%;">
-            <div id="textoImg"></div>
-        </div>
-        <!-- ver tema del style.display https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp -->
-        <!-- botones con informacion https://www.w3schools.com/howto/howto_js_tabs.asp -->
-        <!-- probando tabs https://codingartistweb.com/2021/11/build-tabs-using-html-css-and-javascript/ -->
+        <!-- botones con informacion https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp -->
         <br>
         <br>
         <br>
         <br>
-
         <div class="fondo">
             <form class="espacio">
                 <p>Para mas curiosidades e informaci&oacute;n sobre 1D...</p>
