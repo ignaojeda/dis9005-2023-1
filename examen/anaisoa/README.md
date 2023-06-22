@@ -1,13 +1,22 @@
-Examen
+EXAMEN
 
-![foto1](./foto1.png)
-Primera documentación de la pagina
+![foto1](./foto1.jpg)
 
-![foto2](./foto2.png)
+![foto2](./foto2.jpg)
 
-![foto3](./foto3.png)
+![foto3](./foto3.jpg)
 
-![foto4](./foto4.png)
+![foto4](./foto4.jpg)
 
-![foto5](./foto5.png)
-Ultima actualización de la documentación de la pagina
+![foto5](./foto5.jpg)
+
+![foto6](./foto6.jpg)
+Imágenes alineadas
+
+![foto7](./foto7.jpg)
+Se puede ver la consola con los mensajes
+
+![foto8](./foto8.jpg)
+
+![foto9](./foto9.jpg)
+Como se ve desde el celular

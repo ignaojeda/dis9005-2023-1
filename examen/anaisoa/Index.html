@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
+<!-- Fuentes Google obtenidas https://fonts.google.com/specimen/Didact+Gothic?category=Sans+Serif&query=didact -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+
+<!-- Barra de busqueda obtenida desde https://www.w3schools.com/howto/howto_css_searchbar.asp-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Codigo obtenido desde https://www.zonautas.com/como-puedes-mostrar-los-acentos-y-las-n-en-html/ para  mostrar los acentos y las ñ en HTML-->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <title>
             Personajes
         </title>
@@ -8,87 +18,98 @@
     </head>
 <body id="grad1">
 
+    <div class="topnav">
+        <a class="active" href="#home">Inicio</a>
+        <a href="#about">Acerca de</a>
+        <a href="#contact">Contacto</a>
+        <div class="search-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Buscar.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+      <div style="padding-left:16px">
+      </div>
+
     <h1>
         Conoce m&aacute;s sobre los personajes femeninos de los siguientes mangas
     </h1>
-
 
     <!-- ol es una lista ordenada y la informaciòn del codigo fue sacada de la pagina web https://www.w3schools.com/html/html_lists.asp.-->   
     <h2>
     <ol>
       <li>
-        Tokyo Ghoul: Touka Kirishima es una Ghoul y fue camarera en Anteiku. Mientras est&aacute; cazando, ella vest&iacute;a con una m&aacute;scara de conejo y su alias es Conejo. En Tokyo Ghoul, ella era una estudiante de segundo a&ntilde;o en la secundaria Kiyomi, al principio y una estudiante de tercer a&ntilde;o tras el time-skip. En Tokyo Ghoul:re, regresa como gerente y camarera de la cafetería re.
+        Tokyo Ghoul: Touka Kirishima es una Ghoul y fue camarera en Anteiku. Mientras est&aacute; cazando, ella vest&iacute;a con una m&aacute;scara de conejo y su alias es Conejo. En Tokyo Ghoul, ella era una estudiante de segundo a&ntilde;o en la secundaria Kiyomi, al principio y una estudiante de tercer a&ntilde;o tras el time-skip. En Tokyo Ghoul:re, regresa como gerente y camarera de una cafeter&iacute;a.
         <br><br><br>
       </li>
       <li>
-          Nobara Kugisaki
+        Jujutsu Kaisen: Nobara Kugisaki es una de las protagonistas de la serie. Es una estudiante de primer año del Colegio T&eacute;cnico de Magia Metropolitana de Tokio, y compañera de Yuji Itadori y Megumi Fushiguro. Sol&iacute;a vivir en el campo, en un pueblo ubicado a cuatro horas de la Estaci&oacute;n de Morioka. Llega a Tokio con el fin de convertirse en una cham&aacute;n de Jujutsu.
+        <br><br><br>
       </li>
       <li>
-          Usagi Tsukino
+       Sailor Moon: Usagi Tsukino, tambi&eacute;n llamada Serena Tsukino en la versión internacional del anime y Bunny Tsukino en España, es la reencarnaci&oacute;n actual de la princesa Serenity y la identidad civil de Sailor Moon adem&aacute;s de ser la protagonista principal. Al comienzo de la historia, Usagi es una chica de catorce años, cuya vida era bastante desorganizada, ya que se la pasaba más leyendo manga, jugando videojuegos y comiendo. Se caracteriza por ser una alumna despreocupada que puede transformarse en la l&iacute;der de facto de las hero&iacute;nas principales de la serie, las Sailor Scouts.
+        <br><br><br>
       </li>
       <li>
-          Nana Osaki
+        Nana: Dentro del manga Nana Osaki es la vocalista principal del popular grupo punk Black Stones y protagonista de la historia junto con Nana Komatsu. Aparentemente es una persona muy fuerte y decidida pero en realidad es una persona muy insegura que se siente triste y un poco obsesiva en cuanto a los pocos amigos que tiene, es tal el miedo que tiene de perderlos que llega a tener un comportamiento posesivo, debido a su dura infancia.
+        <br><br><br> 
       </li>
       <li>
-        Akane Tendo
+        Ranma ½: Akane Tendo una de las protagonistas, hija menor de Soun Tendo y su fallecida madre, Nikuna Tendo. Es de carcter muy fuerte y decidido, muchas veces Ranma la califica de "masculina" por sus actitudes poco "femeninas", lo que la molesta mucho. En un principio estaba enamorada de su amor plat&oacute;nico el Doctor Tofu, pero paulatinamente comenz&oacute; a enamorarse de Ranma, aunque nunca lo declara abiertamente frente a &eacute;l, sin embargo y al igual que Ranma, suele ponerse celosa ante los acosos de las chicas que est&aacute;n enamoradas de &eacute;l, incluso compitiendo directamente con ellas.
+        <br><br><br> 
     </li>
       <li>
-        Kochou Shinobu
+        Kimetsu no Yaiba: Shinobu Kocho es un personaje secundario importante dentro de la franquicia de Kimetsu no Yaiba. Shinobu fue una Cazadora de Demonios que se desempeñaba como uno de los Pilares; ella ocup&oacute; el puesto como el Pilar del Insecto.
     </li>
   </ol>
 </h2>
 
-<div class="container">
-  <img src="Touka.jpg" alt="Avatar" class="image">
-  <div class="overlay rojo">
-    <div class="text">Touka Kirishima</div>
+ <!--Despues varios intentos aprendí a alinear las imagenes hacia el lado y al mismo tiempo hacer que al posicionarse en la imagen diga el nombre del personaje y su color caracteristico-->
+ <!-- Utlicé los siguientes codigos sacados desde https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_fade y https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_images_side_by_side-->  
+<div class="row">
+  <div class="column container">
+    <img src="Touka.jpg" alt="Touka" style="width:100%">
+    <div class="overlay rojo">
+        <div class="text">Touka Kirishima</div>
+      </div>
+  </div>
+  <div class="column container">
+    <img src="Nobara.jpg" alt="Nobara" style="width:100%">
+    <div class="overlay naranjo">
+        <div class="text">Nobara Kugisaki</div>
+      </div>
+  </div>
+  <div class="column container">
+    <img src="Usagi.jpg" alt="Usagi" style="width:100%">
+    <div class="overlay rosado">
+        <div class="text">Usagi Tsukino</div>
+      </div>
   </div>
 </div>
 
-<br><br><br>
-<!-- Hoy aprendi que pueden haber diferentes clases dentro de una misma -->
-<div class="container">
-    <img src="./Nobara.png" alt="Avatar" class="image">
-    <div class="overlay naranjo">
-      <div class="text">Nobara Kugisaki</div>
+<div class="row">
+    <div class="column container">
+      <img src="Nana.jpg" alt="Nana" style="width:100%">
+      <div class="overlay negro">
+          <div class="text">Nana Osaki</div>
+        </div>
     </div>
-  </div>
-  
-  <br><br><br>
-
-  <div class="container">
-    <img src="Usagi.jpg" alt="Avatar" class="image">
-    <div class="overlay rosado">
-      <div class="text">Usagi Tsukino</div>
+    <div class="column container">
+      <img src="Akane.jpg" alt="Akane" style="width:100%">
+      <div class="overlay celeste">
+          <div class="text">Akane Tendo</div>
+        </div>
     </div>
-  </div>
-
-  <br><br><br>
-
-  <div class="container">
-    <img src="Nana.jpg" alt="Avatar" class="image">
-    <div class="overlay negro">
-      <div class="text">Nana Osaki</div>
+    <div class="column container">
+      <img src="Kocho.jpg" alt="Kocho" style="width:100%">
+      <div class="overlay morado">
+          <div class="text">Shinobu Kocho</div>
+        </div>
     </div>
   </div>
 
-  <br><br><br>
-
-  <div class="container">
-    <img src="Akane.jpg" alt="Avatar" class="image">
-    <div class="overlay celeste">
-      <div class="text">Akane Tendo</div>
-    </div>
-  </div>
-
-  <br><br><br>
-
-  <div class="container">
-    <img src="Kochou.jpg" alt="Avatar" class="image">
-    <div class="overlay morado">
-      <div class="text">Kochou Shinobu</div>
-    </div>
-  </div>
+  <script src="./script.js"></script>
 
 </body>
 </html>
