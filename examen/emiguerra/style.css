@@ -1,10 +1,26 @@
-<style>
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.w3-row-padding img {margin-bottom: 12px}
-/* sacado de mi solemne 2 */
-.w3-sidebar {width: 120px;background: #4e4444;}
-#main {margin-left: 120px}
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.w3-row-padding img {
+  margin-bottom: 12px;
+}
+
+.w3-sidebar {
+  width: 120px;
+  background: #4e4444;
+}
+
+#main {
+  margin-left: 120px;
+}
+
+@media only screen and (max-width: 600px) {
+  #main {
+    margin-left: 0;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -20,16 +36,12 @@ body {
 }
 
 .row {
-  display: -ms-flexbox; /* IE 10 */
   display: flex;
-  -ms-flex-wrap: wrap; /* IE 10 */
   flex-wrap: wrap;
   padding: 0 4px;
 }
 
-/* Create two equal columns that sits next to each other */
 .column {
-  -ms-flex: 50%; /* IE 10 */
   flex: 50%;
   padding: 0 4px;
 }
@@ -39,7 +51,6 @@ body {
   vertical-align: middle;
 }
 
-/* Style the buttons */
 .btn {
   border: none;
   outline: none;
@@ -54,7 +65,52 @@ body {
 }
 
 .btn.active {
-  background-color: #666;
+  background-color: #ff8888;
   color: white;
 }
-</style>
+
+.menu {
+  float: left;
+  width: 20%;
+}
+
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width: 800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+  .menu,
+  .main,
+  .right {
+    width: 100%;
+  }
+}
