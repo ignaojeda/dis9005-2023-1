@@ -12,14 +12,15 @@
         <ol>
          <li> Centrarse en la estructura de una página ya existente, indagando hacerca de su construcción. Esta será la base para el proyecto, el cual será referenciado en las líneas de código estimadas.</li>
          <li> Usar contenido de referencia, es decir, ningún proyecto vinculado a mi persona. Para ello se creará un código qr que rediriga a un documento en el que se exponga un listado de los distintos recursos útilizados con sus respectivos autores. Estos serán recursos que sólo se encontrarán en internet </li>
-         <li>La interactividad será agregar una ambientación musical a la página (de ser posible sin mostrar un visualizador de audio) y en trabajar con contenidos gráficos y audiovisuales que cambien a medida que se navegue por el sitio.</li>
+         <li>La interactividad será agregar una ambientación musical a la página (de ser posible sin mostrar un visualizador de audio).</li>
         </ol>
         <br>
         <h2> Previsualización final del sitio </h2>
-          <img src= "">
+          <img src= "./previsualizaciones/Your-work (1).gif">
            <p> Escritorio </p>
-          <img src= "">
+          <img src= "./previsualizaciones/Previsualizacion-computador.png">
            <p> Celular </p>
+          <img src= "./previsualizaciones/Previsualizacion-telefono.png">
         <br>
         <h2> Referencias de páginas web </h2>
         <ul>
