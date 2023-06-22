@@ -16,7 +16,7 @@
         </ol>
         <br>
         <h2> Previsualización final del sitio </h2>
-          <video src="./previsualizaciones/video-pagina-completa-escritorio.mp4"></video>
+        <video src="./previsualizaciones/video-pagina-completa-escritorio.mp4" width=320  height=240 controls></video>  
            <p> Escritorio </p>
           <img src= "./previsualizaciones/Previsualizacion-computador.png">
            <p> Celular </p>
