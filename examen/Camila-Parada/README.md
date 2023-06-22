@@ -29,9 +29,6 @@
           <img src= "">
           <p> * Es necesario escanearlo para poder ingresar </p>
         <br>
-        <p> De este trabajo aprendí que no es para nada fácil el diseño de una web, dado que los códigos pre-hechos son necesarios el analizar cada línea de código para poder establecer nuevas experiencias, razón por la cual considero que se puede trabajar de mejor manera en un sitio web creado desde cero por uno mismo, pese a que conlleva el problema de requerir una mayor cantidad de tiempo. En ese sentido me vi limitada al involucrarme en un periodo de prueba y errores consecutivos, en el que sólo pude generar una adaptación del diseño de la página y unas leves interacciones cómo botones.
-            
-        </p>
+        <p> De este trabajo aprendí que no es para nada fácil el diseño de una web, dado que los códigos pre-hechos son necesarios el analizar cada línea de código para poder establecer nuevas experiencias, razón por la cual considero que se puede trabajar de mejor manera en un sitio web creado desde cero por uno mismo, pese a que conlleva el problema de requerir una mayor cantidad de tiempo. En ese sentido me vi limitada al involucrarme en un periodo de prueba y errores consecutivos, en el que sólo pude generar una adaptación del diseño de la página y unas leves interacciones cómo botones.</p>
     </body>
-
 </html>
