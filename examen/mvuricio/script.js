@@ -10,6 +10,8 @@ function go(){
     } 
 
 
+
+    // referente de https://www.w3schools.com/jsref/jsref_tostring_date.asp //
 document
 .getElementById("myBtn")
 .addEventListener("click", displayDate);
