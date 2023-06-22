@@ -1,0 +1,215 @@
+/* Líneas de cuerpo y fondo - Recuperado de: https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_coming_soon&stacked=h */
+/* Comentario: esta estructura forma parte de la página original, con unas pequeñas modificaciones a la tipografía, el fondo de pantalla y el logotipo */
+
+body {
+    height: 100%;
+    background-color: black;
+}
+
+/* Cabecera de la página - Recuperado de: https://www.youtube.com/watch?v=eQ5SU6UN46w&t=110s&ab_channel=LearnDesign */
+
+.header {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.logo {
+    /* Imagen responsiva - Recuperado de: "https://www.w3schools.com/html/html_responsive.asp"> HTML Responsive Web Design. Responsive Images */
+    max-width:50%;
+    min-width:50%;
+    height:auto;
+    float: left;
+    align-items: baseline;
+    }
+
+nav {
+    flex: 1;
+    text-align: center;
+  }
+
+.inner-header {
+    max-width: 1300px; 
+    height: 150px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.header ul {
+   display: flex;
+   justify-content: center;
+   padding: 0;
+   margin: 0;
+}
+
+.header ul li {
+    margin-right: 10px; 
+}
+
+.header ul li a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 25px;
+    transition: all ease 0.5s;
+  }
+  
+  .header ul li:first-child {
+    margin-left: 0;
+  }
+  
+  .header ul li:last-child {
+    margin-right: 0;
+  }
+
+.header ul li a:hover {
+    background-color: #44444485;
+}
+
+/* Fin de la cabecera */
+
+/* Texto sobre el fondo - Recuperado de: Chat gpt*/
+
+.container {
+  position: relative;
+}
+
+.container .fondo-imagen {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container .texto-container {
+  position: absolute;
+  top: 45%;
+  left:55%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.container .titulo {
+  font-size: 8vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.container .bajada {
+  font-size: 3vw;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: aliceblue;
+}
+  
+/* Fin de texto sobre el fondo */
+
+/* Linea de audio - Recuperado de: Chat GPT  */
+.container-1 {
+  position: relative;
+}
+
+.audio-player {
+  position: absolute;
+  top: 66vw;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 1800px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.audio-player audio {
+  width: 100%;
+}
+
+.audio-player .timeline {
+  position: relative;
+  height: 5px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.audio-player .progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0%;
+  background-color: coral;
+}
+
+.audio-player .controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.audio-player .controls .toggle-play {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.audio-player .controls .time {
+  display: flex;
+  align-items: center;
+}
+
+.audio-player .controls .time > * {
+  margin: 0 5px;
+}
+
+.audio-player .controls .volume-container {
+  position: relative;
+}
+
+.audio-player .controls .volume-container .volume-button {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.audio-player .controls .volume-container .volume-slider {
+  position: absolute;
+  top: -15px;
+  left: -50%;
+  width: 100px;
+  height: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+  opacity: 0;
+}
+
+/* Fin de la linea de audio */
+
+.credits {
+font-family: 'Raleway';
+color: aliceblue;
+text-align: center;
+font-size: 15px;
+}
