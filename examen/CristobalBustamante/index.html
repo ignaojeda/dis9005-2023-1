@@ -1,0 +1,110 @@
+<!--Página continuada de la solemne 1 Cristobal Bustamante-->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Titulo de ventana-->
+  <title>Mercy Howlett Portfolio</title>
+  <!--Favicon-->
+  <link rel="icon" href="assets/MercyHowlett_Favicon.ico" />
+  <!--Link a CSS-->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<!--Encabezado-->
+<header>
+  <div class="logo">
+    <!--Ahora el logo redirige a mi Instagram de trabajo-->
+    <a href="https://www.instagram.com/mercyhowlett/"><img class="logo-gif" src="assets/MercyHowlett.gif"></a>
+    <h2 class="title">Mercy Howlett</h2>
+  </div>
+</header>
+
+<body id="background">
+  <!--Cursor-->
+  <div class="cursor"></div>
+  <!--Selector de color-->
+  <div>
+    <form>
+      <br />
+      <br />
+      <p class="parrafo">Selecciona el color de fondo</p>
+      <br />
+      <input type="color" value="#f0f0f0" id="selectorcolor">
+      <br />
+      <br />
+      <!--No se como relacionar el input reset con el input color-->
+      <input type="reset" id="boton0">
+    </form>
+  </div>
+  <!--Galeria-->
+  <div id="galeria">
+    <br />
+    <br />
+    <b>
+      <p class="titulo">Chaos Poster</p>
+    </b>
+    <br />
+    <img class="imagen" src="assets/Galeria/Chaos Red.jpg" />
+    <br />
+    <br />
+    <b>
+      <p class="titulo">Lemort Flyer</p>
+    </b>
+    <br />
+    <img class="imagen" src="assets/Galeria/Flyer Lemort Blanco.jpg" />
+    <br />
+    <br />
+    <b>
+      <p class="titulo">Killing Moon Poster</p>
+    </b>
+    <p class="parrafo">Poster inspirado en la mitica canci&oacute;n de Echo & the Bunnymen, escuchala en <a
+        class="hipervinculo"
+        href="https://www.youtube.com/watch?v=LWz0JC7afNQ&pp=ygUVZWNobyBhbmQgdGhlIGJ1bm55bWVu">Youtube</a></p>
+    <br />
+    <img class="imagen" src="assets/Galeria/Killing Moon Red.jpg" /></p>
+    <br />
+    <br />
+    <!--Linea de código adaptada y extraida de W3School https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_video_js_prop-->
+    <div id="musicvideo">
+      <button id="boton1" onclick="playPause()">Play/Pause</button>
+      <button id="boton2" onclick="makeBig()">Big</button>
+      <button id="boton3" onclick="makeNormal()">Normal</button>
+      <button id="boton4" onclick="makeSmall()">Small</button>
+      <br><br>
+      <video id="video1" width="1000">
+        <source src="assets/Killing-Moon-Music-Video.mp4" type="video/mp4">
+        <source src="assets/Killing-Moon-Music-Video.ogg" type="video/ogg">
+        Your browser does not support HTML video.
+      </video>
+    </div>
+    <br />
+    <br />
+    <b>
+      <p class="titulo">Heavy Machine Poster</p>
+    </b>
+    <br />
+    <img class="imagen" src="./assets/Galeria/Heavy Machine Low White.jpg" />
+    <br />
+    <br />
+    <b>
+      <p class="titulo">Techno Box Logo</p>
+    </b>
+    <p class="parrafo">Logotipo realizado para la productora de eventos Techno Box, enterate de sus proximos eventos <a
+        class="hipervinculo" href="https://www.instagram.com/technoboxcl/">aqu&iacute;</a></p>
+    <br />
+    <img class="imagen" src="assets/Galeria/Techno Box Logo Blanco.jpg" />
+    <br />
+    <br />
+  </div>
+  <!-- Link a JS-->
+  <script src="./javascript.js"></script>
+</body>
+<footer>
+  <!--Apertura de mail automatico para contacto-->
+  <!--No logre realizar cambios en CSS sobre este link, no se por que no se aplican los cambios-->
+  <a href="mailto:contact.mercyhowlett@gmail.com?Subject=Estoy%20interesado%20en%20sus%20servicios">
+    <h3>contact.mercyhowlett@gmail.com</h3>
+  </a>
+</footer>
+
+</html>

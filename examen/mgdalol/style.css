@@ -1,0 +1,97 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/db/20/49/db204946954d43676c16725c5135b6ad.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 {
+    color:rgb(255, 255, 255);
+    font-family:inherit;
+    font-size: 40px;
+}
+p {
+    color: white;
+    font-family:monospace;
+    font-size:medium;
+}
+/* configuraciones del borde de texto n1 */
+p.borde {
+    border-style:solid;
+    border: 2px solid rgba(255, 255, 255, 0.817);
+    border-radius: 8px;
+    padding: 5px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    color:rgb(25, 58, 104);
+    font-family:inherit;
+    font-size: 25px;
+}
+/* con a se configura el link de visualizacion de la serie */
+a:link, a:visited {
+    background-color:orangered;
+    color:rgb(255, 245, 232);
+    padding: 8px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:small;
+}
+a:hover, a:active {
+    background-color:rgb(255, 0, 0);
+    color: rgb(255, 232, 26);
+    font-size: medium;
+}
+a.link {
+    border-style:solid;
+    border: 2px solid rgba(255, 0, 0, 0.817);
+    border-radius: 6px;
+}
+
+input[type=text] {
+   width: 50%;
+   padding: 2px 8px;
+   margin: 2px 0;
+   box-sizing:border-box;
+   border: none;
+ }
+
+h3 {
+    color:rgb(25, 58, 104);
+    font-family:inherit;
+    font-size: 25px;
+}
+/* solo para recordatorio el dorpdown es la bajada de imagenes de los personajes en orden y para poder alinearlas tuve que borrar el "padding" dentro de la configuración */
+ .dropdown {
+    position: relative;
+    display: inline-block;
+ }
+ .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .desc {
+    text-align: center;
+  }
+  /* esta es la configuracion del div para alinear todo al porte de la pagina */
+ .contenido {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style:solid;
+    border: 2px solid rgba(255, 255, 255, 0.817);
+    border-radius: 12px;
+    padding: 10px;
+ }

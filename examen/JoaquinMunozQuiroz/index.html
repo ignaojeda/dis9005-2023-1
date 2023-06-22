@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Experimento Social</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Esta es la biblioteca de los iconos que use para el form, lo unico malo, pero tambien comprendo porque se hace, es que te pide logearte para generarte un kit gratuito que te deja usar la biblioteca, aqui dejo el link https://fontawesome.com/icons-->
+    <script src="https://kit.fontawesome.com/1fa60d40fe.js" crossorigin="anonymous"></script>
+    <!--La font que use, me volvi un poco fan de Google Fonts por lo practico la verdad https://fonts.google.com/specimen/Comfortaa-->
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <!--Todo los divs relativos al form, ordenar todo esto para despues ahorrar trabajo y no cambiarlos de uno a uno es la luz, en especial por el orden final del css-->
+    <div class="contenedor">
+        <div class="contenedorForm">
+            <h1 id="title">Regístrate a Ishtar Collective</h1>
+            <form>
+                <!--Hasta donde lei en w3school https://www.w3schools.com/tags/tag_i.asp, la etiqueta "i" se usaba antiguamente para cambiar los estilos del texto de forma directa, pero la biblioteca los usa como contenedor para los iconos-->
+                <div class="datosForm">
+                    <div class="espacioForm" id="espacioNombre">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Nombre">
+                    </div>
+
+                    <div class="espacioForm">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="Correo electrónico">
+                    </div>
+
+                    <div class="espacioForm">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Contraseña">
+                    </div>
+                    <p>¿Te olvidaste de tu contraseña?,<a href="#"> Recupérala aquí</a></p>
+                </div>
+                <div class="espacioBtn">
+                    <button type="button" id="registrarseBtn">Regístrarse</button>
+                    <button type="button" id="iniciarBtn" class="disable">Iniciar Sesión</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--El texto que va debajo del form, tuve que ponerlos así para que pudiera cambiar el como se veian de forma mas comoda, sino quedaban todo pegados-->
+    <div class="textoPrincipal">
+        <h1>Tarrabah</h1>
+        <h2>We walk where our ancestors once walked.</h2>
+        <p>The world is very big again.</p>
+        <p>It used to be small. I know because I was born inside its commwire-satellite-datawave skeleton.</p>
+        <p>But even before that, before the Traveler wove us into a tapestry of peculiar threads, this was a planet
+            of big, big worlds.</p>
+        <p>Many of those worlds were lost in a collapse, but not the one you're thinking of. Before the great
+            Collapse, there was another. A longer, slower, bitterer collapse.</p>
+        <p>Some things survive. Names upon rusted signs, phrases in impervious microfiche. As other Guardians save
+            humans, I save words. I save stories.</p>
+        <p>That is my mission, here on the shores of the Hawkesbury Sea. I surface the survivors. The sweet-voiced
+            koodelong. The swift gangurru. The sharp-fanged tarrabah.</p>
+        <p>It's a mission the Traveler started. After all, she surfaced me.</p>
+    </div>
+    <div class="fotos">
+        <!--Foto extraida de https://arcadehaven.io/destiny-2/crown-of-sorrow-upgrade-guide/-->
+        <img src="crownenter.jpg" alt="Entrada CoS">
+    </div>
+    <!--El vinculo a la bibliteca original de Ishtar Collective-->
+    <a class="vinculos" href="https://www.ishtar-collective.net/releases/season-of-opulence">Conoce más sobre este
+        captitulo</a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,32 +1,58 @@
-let formulario = document.getElementById("completar");
-console.log(formulario);
-formulario.addEventListener("submit", grabarInfo);
-
-// formulario para completar la letra de la canci&oacute;n 
-
-function grabarInfo(event) {
-    event.preventDefault();
-    let confirmar = document.getElementById("letra");
-    if (confirmar.value == "It's always pulling us apart") {
-        alert("oh wow");
-    } else {
-        alert("oh no");
+var input = document.getElementById("info");
+input.addEventListener("keypress", function(event) {
+    if (event.key == "enter") {
+        event.preventDefault();
+        document.getElementById("enviar").click;
     }
-   
-}
-function respuesta() {
-    document.getElementById("respuesta").innerHTML = "It's always pulling us apart";
-}
-function cambiarColor() {
-    document.getElementById("cambiarColor").style.color = "green";
-}
-function verde() {
-    document.getElementById("verde").style.color = "green";
-}
-// Cambiar color de texto al hacer click en la frase https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_ev_onclick2
+});
+// alerta al registrarse https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp
 
-function sorpresa() {
-    document.body.style.backgroundColor = "salmon";
-    document.body.style.color = "purple"
+function abrir() {
+    var x = document.getElementById("uan");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    }
+    else {
+        x.style.display = "none";
+    }
 }
-// cambiar color, letra y pantalla al hacer click en la frase bot&oacute;n https://bobbyhadz.com/blog/javascript-change-background-color-on-click
+
+function descubrir() {
+    var x = document.getElementById("tmh");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    }
+    else {
+        x.style.display = "none";
+    }
+}
+
+function destapar() {
+    var x = document.getElementById("mm");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    }
+    else {
+        x.style.display = "none";
+    }
+}
+
+function hender() {
+    var x = document.getElementById("f");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    }
+    else {
+        x.style.display = "none";
+    }
+}
+
+function rajar() {
+    var x = document.getElementById("mitam");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    }
+    else {
+        x.style.display = "none";
+    }
+}

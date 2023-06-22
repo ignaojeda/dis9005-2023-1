@@ -5,86 +5,73 @@
     <!--Titulo de ventana-->
     <title>Mercy Howlett Portfolio</title>
     <!--Favicon-->
-    <link rel="icon" href="assets/MercyHowlett_Favicon.ico" />
+    <link rel="icon" href="assets/MercyHowlett_Favicon.ico"/>
     <!--Link a CSS-->
-    <link rel="stylesheet" href="style.css" />
-    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
     <!--Encabezado-->
     <header>
       <div class="logo">
-        <img class="logo-gif" src="assets/MercyHowlett.gif" />
+        <!--Ahora el logo redirige a mi Instagram de trabajo-->
+        <a href="https://www.instagram.com/mercyhowlett/"><img class="logo-gif" src="assets/MercyHowlett.gif"></a>
         <h2 class="title">Mercy Howlett</h2>
       </div>
     </header>
-    <!--Html Forms-->
-    <div>
-      <br />
-      <form id="formulario">
-        <input
-          type="text"
-          id="buscador"
-          placeholder="Try with a number from 1 to 10"
-          maxlength="2"
-        />
-        <input class="boton" type="reset" />
-        <input class="boton" type="submit" />
-      </form>
-      <br />
-    </div>
     <!--Cursor-->
-    <div class="cursor">
-      <!-- Link a JS-->
-      <script src="./script.js"></script>
-    </div>
+    <div class="cursor"></div>
     <!--Galeria-->
     <div class="galeria">
-      <br />
+      <br/>
+      <br/>
       <b><p class="titulo">Chaos Poster</p></b>
-      <img src="assets/Galeria/Chaos Red.jpg" />
-      <br />
+      <br/>
+      <img src="assets/Galeria/Chaos Red.jpg"/>
+      <br/>
+      <br/>
       <b><p class="titulo">Lemort Flyer</p></b>
-      <img src="assets/Galeria/Flyer Lemort Blanco.jpg" />
-      <br />
+      <br/>
+      <img src="assets/Galeria/Flyer Lemort Blanco.jpg"/>
+      <br/>
+      <br/>
       <b><p class="titulo">Killing Moon Poster</p></b>
-      <p class="parrafo">
-        Poster inspirado en la mitica canci&oacute;n de Echo & the
-        Bunnymen,<a
-          class="hipervinculo"
-          href="https://www.youtube.com/watch?v=LWz0JC7afNQ&pp=ygUVZWNobyBhbmQgdGhlIGJ1bm55bWVu"
-        >
-          escuchala aqu&iacute;</a
-        >
-        <img src="assets/Galeria/Killing Moon Red.jpg" />
-      </p>
-      <br />
-      <!--Linea de código extraida de W3School https://www.w3schools.com/html/html_youtube.asp-->
-      <video id="video" width="1280" height="720" autoplay muted loop>
-        <!-- <source
-          src="./assets/ Moon Music Video.mp4"
-          type="video/mp4"
-        /> -->
-        <source
-          src="assets/Killing-Moon-Music-Video.ogg"
-          type="video/ogg"
-        />
-      </video>
-      <br />
+      <p class="parrafo">Poster inspirado en la mitica canci&oacute;n de Echo & the Bunnymen, escuchala en <a class="hipervinculo" href="https://www.youtube.com/watch?v=LWz0JC7afNQ&pp=ygUVZWNobyBhbmQgdGhlIGJ1bm55bWVu">Youtube</a></p>
+      <br/>
+      <img src="assets/Galeria/Killing Moon Red.jpg"/></p>
+      <br/>
+      <br/>
+      <!--Linea de código adaptada y extraida de W3School https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_video_js_prop-->
+      <div class="musicvideo"> 
+          <button class="boton"onclick="playPause()">Play/Pause</button> 
+          <button class="boton"onclick="makeBig()">Big</button>
+          <button class="boton"onclick="makeNormal()">Normal</button>
+          <button class="boton"onclick="makeSmall()">Small</button>
+          <br><br>
+          <video id="video1" width="1000">
+            <source src="assets/Killing-Moon-Music-Video.mp4" type="video/mp4">
+            <source src="assets/Killing-Moon-Music-Video.ogg" type="video/ogg">
+            Your browser does not support HTML video.
+          </video>
+      </div>      
+      <br/>
+      <br/>
       <b><p class="titulo">Heavy Machine Poster</p></b>
-      <img src="./assets/Galeria/Heavy Machine Low White.jpg" />
-      <br />
+      <br/>
+      <img src="./assets/Galeria/Heavy Machine Low White.jpg"/>
+      <br/>
+      <br/>
       <b><p class="titulo">Techno Box Logo</p></b>
-      <p class="parrafo">
-        Logotipo realizado para la productora de eventos Techno Box,<a
-          class="hipervinculo"
-          href="https://www.instagram.com/technoboxcl/"
-        >
-          enterate de sus proximos eventos aqu&iacute;</a
-        >
-      </p>
-      <img src="assets/Galeria/Techno Box Logo Blanco.jpg" />
-      <br />
+      <p class="parrafo">Logotipo realizado para la productora de eventos Techno Box, enterate de sus proximos eventos <a class="hipervinculo" href="https://www.instagram.com/technoboxcl/">aqu&iacute;</a></p>
+      <br/>
+      <img src="assets/Galeria/Techno Box Logo Blanco.jpg"/>
+      <br/>
+      <br/>
     </div>
+    <!-- Link a JS-->
+    <script src="./javascript.js"></script>
   </body>
+  <footer>
+    <!--No pude realizar cambios en CSS sobre este link, no se por que no se aplican los cambios-->
+      <a href="mailto:contact.mercyhowlett@gmail.com?Subject=Estoy%20interesado%20en%20sus%20servicios"><h3>contact.mercyhowlett@gmail.com</h3></a>
+  </footer>
 </html>

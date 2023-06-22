@@ -1,0 +1,46 @@
+
+/* el aguste del tamaño y la forma del gif lo logre sacar por un fideo de youtube del usuario divcode https://www.youtube.com/watch?v=qqm-DDdoExQ&ab_channel=divcode */
+/* primero intente con un codigo de imagenes de www.w3schools.com pero no funcionaba de la misma manera */
+.gif {
+    width:250px;
+    height:250px;
+}
+.gifcurvo {
+    width:250px;
+    height:250px;
+    border-radius:50px;
+}
+.gifsombra {
+    width:250px;
+    height:250px;
+    box-shadow: 20px 20px 20px;
+}
+body {
+    background-color: rgb(221, 245, 255);
+  }
+  .gifredondo {
+    width:250px;
+    height:250px;
+    border-radius:200px;
+}
+/* logre hacer responsiva la pagina con ayuda de el profesor y sacado de https://www.w3schools.com/cssref/css3_pr_mediaquery.php ahora entiendo de mejor manera esta parte */
+/* pude cambiar el color de los textos viendo el codigo de mi compañera someteang */
+h2 {
+    color:rgb(2, 0, 0);
+}
+h3 {
+    color:rgb(177, 0, 0);
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+      background-color:red;
+    }
+    h2 {
+        color:rgb(0, 0, 177);
+    }
+    h3 {
+        color:rgb(0, 0, 177);
+    }
+  }
+   
