@@ -1,0 +1,72 @@
+body {
+    margin: 0%;
+}
+.title {
+    font-family: Hagrid Trial Heavy;
+    color: #130033;
+    font-size: 72pt;
+    margin-top: 30px;
+    margin-left: 39px;
+    text-align: left;
+}
+.title2 {
+    font-family: Geneva;
+    color: #130033;
+    font-size: 48px;
+    margin-left: 39px;
+}
+.bio {
+    font-family: Geneva;
+    color: #130033;
+    font-size: 24pt;
+    margin-left: 39px;
+    margin-right: 800px;
+    text-align: left;
+}
+.container {
+    width: 80%;
+    margin: 0 auto
+}
+header {
+    background: #ABB8FF
+}
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.logo {
+    float: left;
+    padding: 10px
+}
+nav {
+    float: right;
+    margin: auto;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav a {
+    color: #130033;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Geneva;
+    font-size: 38px;
+
+}
+nav a:hover {
+    color:#EFF2FF;
+}
+
+body {
+    height: 1000px;
+    transition: background-color 0.5s ease-out;
+}
